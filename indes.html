@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROS GPS Data</title>
+
+    <!-- Robot Web Tools Libraries -->
+    <script src="https://static.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
+    <script src="https://static.robotwebtools.org/roslibjs/current/roslib.min.js"></script>
+
+    <!-- Your JavaScript -->
+     
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Simple roslib Example to Display GPS Data</h1>
+
+    <h2>Latitude:</h2>
+    <p id="lat">Waiting for data...</p>
+
+    <h2>Longitude:</h2>
+    <p id="lng">Waiting for data...</p>
+
+    <hr>
+
+    <h2>JavaScript Example</h2>
+
+    <p id="demo">JavaScript can manipulate the HTML content.</p>
+
+    <button onclick="changeText()">
+        Click This Button
+    </button>
+
+</body>
+
+</html>
